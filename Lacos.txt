@@ -1,0 +1,20 @@
+for (incialização;condição;iteração) {}
+while (condição){}
+if (condição) {}
+
+switch (expresao){
+    case x:
+        break;
+    default:
+}
+
+do{
+    instruções;
+}while (Condição);
+
+
+Use o laço for para executar um numero conhecido de vezes de iteração. Use o do-while
+quando precisar de um laço que execute sempre pelo menos uma iteração. O laço while é
+mais adequado quando o laço é repetido um numero desconhecido de vezes.
+
+

@@ -1,0 +1,52 @@
+Alguns termos:
+
+Applets
+Servlet
+bytecode
+JVM
+Orientação a Objeto - Encapsulamento / Polimorfismo / Herança
+Metodo - Sub-rotina
+Modificador de acesso
+Unicode
+Tipagem
+Atribuição
+Intruções de seleção - if / switch
+Instrução de iteração - for / while / do-while
+Intrução de salto - break, continue
+
+
+Operadores - Aritmeticos, bitwise, relacional, logico
+
+Incremento e decremento - prefixada(++x)/executa de imediato  e 
+posfixada(x++) depois do termino do bloco
+
+Operador
+& - and
+| - Or
+^ - xor - or binario (v + v = f)
+|| - or - Mais eficiente
+&& - and - mais eficiente
+! - not
+
+Literais
+Significa que posso fazer as seguinte entradas de numeros: 1.000 == 1_000
+Literais de String - Sequencia de escape de caracteres
+\' - aspas simples
+\" - aspas duplas
+\\ - barra invertida
+\r - retorno de carro
+\n - nova linha
+\f - avanço de pagina
+\t - tabulação horizontal
+\b - retrocesso
+\ddd - constante octal (onde ddd é uma constante octal)
+\uxxx - constante hexadeciaml (onde xxx é uma constante Hexadecimal)
+
+
+Valores para começar a sua entrada
+Hexadecimal - 0x - 0X
+Binario - 0b - 0B
+Octal - 0
+
+
+
