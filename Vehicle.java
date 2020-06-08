@@ -6,6 +6,16 @@ public class Vehicle {
     int fuelcap; // capacidade de armazenamento de combustivel em galoes
     int mpg; // consumo de combustivel em milhas por galão
     
+    // Esse é um costrutor para Vehicle
+    Vehicle(int p, int f, int m){
+        passageiros = p;
+        fuelcap = f;
+        mpg = m;
+    }
+
+    // Construtor vazio
+    Vehicle(){}
+
     // exibe a autonomia
     int range(){
         return fuelcap * mpg;

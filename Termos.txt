@@ -15,10 +15,18 @@ Instrução de iteração - for / while / do-while
 Intrução de salto - break, continue
 
 Classes -> Metodos
+Classes - são uma abstração lógica que descreve a forma e comportamento de um objeto.
+Objeto - é uma instancia fisica da classe.
+Objeto - Cada objeto de classe tem sua propria copia das variavel de instancia da classe.
 Metodos -> Argumentos -> Parametros
 Dentro do metodo, a variavel que recebe os argumentos é chamada parametro.
+New - aloca memoria para um objeto e o iniciliza usando seu Construtor
 
 Operadores - Aritmeticos, bitwise, relacional, logico
+
+Construtor - fornece valores iniciais para variaves de instancia definidas pela
+classe ou para executar algum outro procedimento de inicialização necessaria a
+criação de um objeto totalmente formado.
 
 Incremento e decremento - prefixada(++x)/executa de imediato  e 
 posfixada(x++) depois do termino do bloco
