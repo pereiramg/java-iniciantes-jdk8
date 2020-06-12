@@ -13,3 +13,18 @@ byte / 8 bits / -128 a 127
 short / 16 bits / -32.768 a 32.767
 int / 32 bits / -2.147.483.648 a 2.217.483.647
 long / 64 bits / -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
+
+Operando com Strings
+boolean equals(str) --> Retorna verdadeiro se a string chamador tiver a mesma
+    sequencia de Caracteres de str.
+int lenght() --> Obtém o tamanho de uma String.
+char charAt(index) --> Obtém o caractere do indice especificado por index
+int compareTo(str) --> Retorna menor do que zero se o string chamador for 
+    menor do que str, maior do que zero se o string chamador for maior do que
+    str e zero se os strings forem iguais.
+int indexOf(str) --> Procura no String chamador o substring especificado por str.
+    Retorna o indice da primeira ocorrencia ou -1 em caso de falha.
+int lastIndexOf(str) --> Procura no string chamador o substring especificado por str.
+    Retorna o indice da última ocorrencia ou -1 em caso de falha
+
+

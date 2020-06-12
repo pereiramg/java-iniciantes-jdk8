@@ -39,6 +39,20 @@ Operador
 && - and - mais eficiente
 ! - not
 
+
+Operadores bitwise - (Podem ser executados em valores do tipo
+    long, int, short, char, byte) - Desativar bits
+& --> AND bitwise
+| --> OR bitwise
+^ --> Exclusive OR bitwise
+>> --> Deslocamento para a direita
+>>> --> Deslocamento para a direita sem sinal
+<< --> Deslocamento para a esquerda
+~ --> Complemento de um (NOT unário)
+Os operadores bitwise AND, OR, XOP e NOT
+& - | - ^ - ~
+
+
 Literais
 Significa que posso fazer as seguinte entradas de numeros: 1.000 == 1_000
 Literais de String - Sequencia de escape de caracteres
