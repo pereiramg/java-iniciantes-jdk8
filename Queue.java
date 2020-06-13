@@ -3,8 +3,8 @@
 */
 public class Queue {
 
-    char q[]; // esse array contem a fila
-    int putloc, getloc; // os indices put e get
+    private char q[]; // esse array contem a fila
+    private int putloc, getloc; // os indices put e get
 
     Queue(int size){
         q = new char[size]; // aloca memoria para a fila

@@ -11,7 +11,7 @@ public class NestVar {
         for(count = 0; count < 10; count++){
             System.out.println("Este é o contador: " + count);
 
-            int count; // Invalido
+            //int count; // Invalido
             int teste;
             for (count = 0; count < 2; count++){
                 System.out.println("Este programa é um erro!");

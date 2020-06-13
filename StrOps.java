@@ -7,7 +7,7 @@ public class StrOps {
         String str2 = new String(str1);
         String str3 = "Java string é poderoso";
         int resultado, idx;
-        char ch;
+        // char ch;
 
         System.out.println("O tamanho de str1: " + str1.length());
 

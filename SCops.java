@@ -4,7 +4,7 @@
 
 public class SCops {
     public static void main(String[] args) {
-        int n, d, q;
+        int n, d;
 
         n = 10;
         d = 2;
