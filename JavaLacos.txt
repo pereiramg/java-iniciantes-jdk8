@@ -1,6 +1,13 @@
 for (incialização;condição;iteração) {}
+strs[]
+for (String s : strs){
+    System.out.print(s + " ");
+}
+
 while (condição){}
+
 if (condição) {}
+condição ? true : false --> Exemplo: i != 0 ? 100 / i : 0;
 
 switch (expresao){
     case x:

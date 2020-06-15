@@ -13,6 +13,7 @@ Atribuição
 Intruções de seleção - if / switch
 Instrução de iteração - for / while / do-while
 Intrução de salto - break, continue
+Recursão - onde algo é definido a partir de si mesmo.
 
 Classes -> Metodos
 Classes - são uma abstração lógica que descreve a forma e comportamento de um objeto.
