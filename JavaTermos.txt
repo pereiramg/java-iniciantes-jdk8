@@ -15,6 +15,8 @@ Instrução de iteração - for / while / do-while
 Intrução de salto - break, continue
 Recursão - onde algo é definido a partir de si mesmo.
 Exemplo de como utilizar: http://www.linhadecodigo.com.br/artigo/3316/recursividade-em-java.aspx#:~:text=A%20recursividade%20trabalha%20de%20forma,ser%20o%20primeiro%20a%20sair
+Static - faz que ele seja iniciado primeiro, em casos de variavel, fica como global
+            disponivel para todos os objetos.
 
 Classes -> Metodos
 Classes - são uma abstração lógica que descreve a forma e comportamento de um objeto.
