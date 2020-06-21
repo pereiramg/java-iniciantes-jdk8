@@ -7,14 +7,14 @@ public class CompFuel {
         int distancia = 252;
 
         // atribui valores a campos de minivan
-        minivan.passageiros = 7;
-        minivan.fuelcap = 16;
-        minivan.mpg = 21;
-
+        minivan.setPassageiros(7);
+        minivan.setFuelcap(16);
+        minivan.setMpg(21);
+        
         // atribui valores a campos a sportcar
-        sportcar.passageiros = 2;
-        sportcar.fuelcap = 14;
-        sportcar.mpg = 12;
+        sportcar.setPassageiros(2);
+        sportcar.setFuelcap(14);
+        sportcar.setMpg(12);
 
         galoes = minivan.fuelneeded(distancia);
                 System.out.println(

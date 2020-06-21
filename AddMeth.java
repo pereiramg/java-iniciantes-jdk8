@@ -8,23 +8,23 @@ public class AddMeth {
         int range1, range2;
 
         // atribui valores a campos de minivan
-        minivan.passageiros = 7;
-        minivan.fuelcap = 16;
-        minivan.mpg = 21;
+        minivan.setPassageiros(7);
+        minivan.setFuelcap(16);
+        minivan.setMpg(21);
 
         // atribui valores a campos a sportcar
-        sportcar.passageiros = 2;
-        sportcar.fuelcap = 14;
-        sportcar.mpg = 12;
+        sportcar.setPassageiros(2);
+        sportcar.setFuelcap(14);
+        sportcar.setMpg(12);
 
         // calcula a autonomia presumindo um tanque cheio de gasolina
-        range1 = minivan.fuelcap * minivan.mpg;
-        range2 = sportcar.fuelcap * sportcar.mpg;
+        range1 = minivan.getFuelcap() * minivan.getMpg();
+        range2 = sportcar.getFuelcap() * sportcar.getMpg();
 
-        System.out.print("Minivan pode carregar " + minivan.passageiros + " passageiros. ");
+        System.out.print("Minivan pode carregar " + minivan.getPassageiros() + " passageiros. ");
         minivan.range(); // exibe a autonomia da minivan
 
-        System.out.print("SportCar pode carregar " + sportcar.passageiros + " passageiros. ");
+        System.out.print("SportCar pode carregar " + sportcar.getPassageiros() + " passageiros. ");
         sportcar.range(); // exibe a autonomia do sportcar
     }
 }
