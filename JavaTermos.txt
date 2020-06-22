@@ -37,42 +37,36 @@ criação de um objeto totalmente formado.
 Incremento e decremento - prefixada(++x)/executa de imediato  e 
 posfixada(x++) depois do termino do bloco
 
-Operador
-& - and
-| - Or
-^ - xor - or binario (v + v = f)
-|| - or - Mais eficiente
-&& - and - mais eficiente
-! - not
+extends
+class y extends x{}
 
+super - usado para referenciar as superclasse
+sobrecarga - um metodo de mesmo nome mas com diferentes Parametros (assinatura)
+sobreposição - Quando um metodo de uma subclasse tem a mesma assinatura com 
+        a superclasse, assim ocorre a sobreposição, onde a prioridade é da subclasse.
+Metodo abstrato - Assegura que uma subclasse sobreponha realmente todos os métodos necessarios.
+    Não pode ser aplicado a metodos Static e Construtor
+    Ex.: abstract class teste{}
+final - impede a sobreposição e a Herança. Também pode ser usado a variaveis para criar constantes.
+    Ex.: final void teste(){}
+    Ex.: final Class test{}
+    Ex.: final int var = 1;
 
-Operadores bitwise - (Podem ser executados em valores do tipo
-    long, int, short, char, byte) - Desativar bits
-& --> AND bitwise
-| --> OR bitwise
-^ --> Exclusive OR bitwise
->> --> Deslocamento para a direita
->>> --> Deslocamento para a direita sem sinal
-<< --> Deslocamento para a esquerda
-~ --> Complemento de um (NOT unário)
-Os operadores bitwise AND, OR, XOP e NOT
-& - | - ^ - ~
-
-
-Literais
-Significa que posso fazer as seguinte entradas de numeros: 1.000 == 1_000
-Literais de String - Sequencia de escape de caracteres
-\' - aspas simples
-\" - aspas duplas
-\\ - barra invertida
-\r - retorno de carro
-\n - nova linha
-\f - avanço de pagina
-\t - tabulação horizontal
-\b - retrocesso
-\ddd - constante octal (onde ddd é uma constante octal)
-\uxxx - constante hexadeciaml (onde xxx é uma constante Hexadecimal)
-
+Object - Classe especial que é uma superclasse implicita de todas as outras classes.
+    Todas as outras classes são subclasses de Object.
+    Object clone() --> Cria um novo objeto igual ao objeto que está sendo clonado.
+    boolean equals(Object objeto) --> Determina se um objeto é igual a outro
+    void finalize() --> Chamado antes de um objeto não usado ser reciclado
+    Class<?>getClass() --> Obtém a classe de um objeto no tempo de execução.
+    int hashCode() --> Retorna o código hash associado ao objeto chamador
+    void notify() --> Retoma a execução de uma thread que está esperando no objeto chamador
+    void notifyAll() --> Retoma a execução de todas as threads que estão esperando no objeto chamador
+    String toString() --> Retorna um string que descreve o objeto.
+    void wait()  ----------------------------------------> 
+    void wait(long millissegundos) ----------------------> Espera outra thread de execução
+    void wait(long millissegundos, int nanossegundos) --->
+Obs.: O metodos getClass(), notify(), notifyAll() e wait() são declarados como final.
+    Você pode sobrepor os demais.
 
 Valores para começar a sua entrada
 Hexadecimal - 0x - 0X

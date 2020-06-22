@@ -1,0 +1,33 @@
+Operador
+& - and
+| - Or
+^ - xor - or binario (v + v = f)
+|| - or - Mais eficiente
+&& - and - mais eficiente
+! - not
+
+Operadores bitwise - (Podem ser executados em valores do tipo
+    long, int, short, char, byte) - Desativar bits
+& --> AND bitwise
+| --> OR bitwise
+^ --> Exclusive OR bitwise
+>> --> Deslocamento para a direita
+>>> --> Deslocamento para a direita sem sinal
+<< --> Deslocamento para a esquerda
+~ --> Complemento de um (NOT unário)
+Os operadores bitwise AND, OR, XOP e NOT
+& - | - ^ - ~
+
+Literais
+Significa que posso fazer as seguinte entradas de numeros: 1.000 == 1_000
+Literais de String - Sequencia de escape de caracteres
+\' - aspas simples
+\" - aspas duplas
+\\ - barra invertida
+\r - retorno de carro
+\n - nova linha
+\f - avanço de pagina
+\t - tabulação horizontal
+\b - retrocesso
+\ddd - constante octal (onde ddd é uma constante octal)
+\uxxx - constante hexadeciaml (onde xxx é uma constante Hexadecimal)
