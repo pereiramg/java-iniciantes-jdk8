@@ -9,9 +9,9 @@ public class Triangle extends TwoDShape {
         style = "none";
     }
 
-    // construtor
+    // construtor para Triangle
     Triangle(String s, double w, double h){
-        super(w, h); // chama construtor da superclasse
+        super(w, h, "Triangle"); // chama construtor da superclasse
         // setHeight(h);
         // setWidth(w);
         style = s;
@@ -19,8 +19,14 @@ public class Triangle extends TwoDShape {
 
     // construtor com um argumento
     Triangle(double x){
-        super(x); // chama construtor da superclasse
+        super(x, "Triangle"); // chama construtor da superclasse
         style = "filled";
+    }
+
+    // constrói um objeto a partir de outro
+    Triangle(Triangle ob){
+        super(ob); // passa o objeto para o construtor de TwoDShape
+        style = ob.style;
     }
 
     double area(){
