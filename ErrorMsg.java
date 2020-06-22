@@ -2,6 +2,14 @@
     Retorna um objeto String
 */
 public class ErrorMsg {
+
+    // código de erro
+    final int OUTERR = 0;
+    final int INERR = 1;
+    final int DISKERR = 2;
+    final int INDEXERR = 3;
+
+    
     String msgs[] = {
         "Output Error",
         "Input Error",
