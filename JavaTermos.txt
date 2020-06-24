@@ -68,6 +68,8 @@ Object - Classe especial que é uma superclasse implicita de todas as outras cla
 Obs.: O metodos getClass(), notify(), notifyAll() e wait() são declarados como final.
     Você pode sobrepor os demais.
 
+package - agrupar partes relacionas de um programa
+
 Valores para começar a sua entrada
 Hexadecimal - 0x - 0X
 Binario - 0b - 0B
