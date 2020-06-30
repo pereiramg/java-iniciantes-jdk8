@@ -70,6 +70,10 @@ Obs.: O metodos getClass(), notify(), notifyAll() e wait() são declarados como 
 
 package - agrupar partes relacionas de um programa
 
+protected --> um membro protegido por protected fica disponivel para ser usado por todas
+    as subclasses, mas continua protegido contra o acesso arbitrario de códigos de fora
+    de seu pacote.
+
 Valores para começar a sua entrada
 Hexadecimal - 0x - 0X
 Binario - 0b - 0B
