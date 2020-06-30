@@ -1,10 +1,11 @@
 // demostração breve de pacotes
 // Book recodificado para acesso publico
+// torna as variaveis de instancia de book protegidas
 package bookpack; // esse arquivo faz parte do pacote bookpack
 
 public class Book { // logo book faz parte de bookpack
-    private String title, author;
-    private int pubDate;
+    protected String title, author;
+    protected int pubDate;
 
     // agora é publico
     public Book(String t, String a, int d) {
